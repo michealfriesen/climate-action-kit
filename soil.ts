@@ -24,7 +24,7 @@ namespace soil {
      * Runs a specific function if the moisture value is below the selected moisture level
      */
     //% block="on moisture level at $pin is below $mlevel"
-    export function ifMoisture(pin: AnalogPin, mlevel: Mlevel, mlevel2: Mlevel, handler: () => void) {
+    export function ifMoisture(pin: AnalogPin, mlevel: Mlevel, handler: () => void) {
         let moistureLevel = getMoisture(pin)
         if (moistureLevel <= mlevel) {
                 handler()
