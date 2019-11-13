@@ -8,6 +8,21 @@
     basic.pause(1000)
     motor.setPowers(MotorPower.OFF)
 
+    //Touch sensor and moisture sensor
+    basic.forever(function () {
+        if (touch.getTouch(DigitalPin.P1)) {
+            soil.displayMoisture(AnalogPin.P0)
+      } else {
+         basic.showLeds(`
+             . . . . .
+             . . . . .
+             . . . . .
+             . . . . .
+             . . . . .
+             `)
+        }
+    })
+
    
     // // Servos
     //servos.resetServos()
