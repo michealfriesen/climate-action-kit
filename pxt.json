@@ -14,13 +14,13 @@
         "touch.ts",
         "motor.ts",
         "soil.ts",
-		"_locales/fr/cak-jsdoc-strings.json",
-		"_locales/fr/cak-strings.json"
+        "_locales/fr/cak-jsdoc-strings.json",
+        "_locales/fr/cak-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": true,
     "preferredEditor": "tsprj",
-    "installedVersion": "workspace:63a4e450-968a-4735-5aa9-7a4031f41366"
+    "installedVersion": "workspace:757e43cf-0e1d-4c6a-5615-914d2f73a5d7"
 }
